@@ -12,11 +12,21 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Associated
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/bigcommerce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: BigCommerce API V3 - Delete the image associated with a modifier
+  x-api-slug: store-hashv3catalogproductsidmodifiersidvaluesidimage-delete
+  description: Delete the image applied to show when the modifier value is selected
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/bigcommerce/store-hashv3catalogproductsidmodifiersidvaluesidimage-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://betterdoctor.api.gallery.streamdata.io

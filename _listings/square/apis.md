@@ -8,11 +8,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Associated
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Square Connect - Provides summary information for all events associated with
+    a particular timecard.
+  x-api-slug: v1metimecardstimecard-idevents-get
+  description: Provides summary information for all events associated with a particular
+    timecard.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1metimecardstimecard-idevents-get-openapi.md
 - name: Square Connect - Provides non-confidential details for all of a location's
     associated bank accounts. This endpoint does not provide full bank account numbers,
     and there is no way to obtain a full bank account number with the Connect API.
@@ -49,6 +63,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1location-idbankaccountsbank-account-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1location-idbankaccountsbank-account-id-get-openapi.md
+- name: Square Connect - Deletes an existing item and all item variations associated
+    with it.
+  x-api-slug: v1location-iditemsitem-id-delete
+  description: Deletes an existing item and all item variations associated with it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1location-iditemsitem-id-delete-openapi.md
 - name: Square Connect - Provides the details for a single item, including associated
     modifier lists and fees.
   x-api-slug: v1location-iditemsitem-id-get
@@ -65,6 +92,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1location-iditemsitem-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1location-iditemsitem-id-get-openapi.md
+- name: Square Connect - Deletes an existing item modifier list and all modifier options
+    associated with it.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-delete
+  description: Deletes an existing item modifier list and all modifier options associated
+    with it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-delete-openapi.md
+- name: Square Connect - Issues a refund for a previously processed payment. You must
+    issue a refund within 60 days of the associated payment.
+  x-api-slug: v1location-idrefunds-post
+  description: Issues a refund for a previously processed payment. You must issue
+    a refund within 60 days of the associated payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/associated/master/_listings/square/v1location-idrefunds-post-openapi.md
 x-common:
 - type: x-website
   url: http://square.com
